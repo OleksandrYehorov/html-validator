@@ -1,2 +1,1 @@
-# html-validator
-HTML validation
+# HTML validator
