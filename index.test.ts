@@ -163,9 +163,9 @@ const invalidInputCases: TestCase[] = [
 describe('validateHtml', () => {
   describe('when input is valid html', () => {
     describe('should handle', () => {
-      for (const { inputHtml: inputValue, testName } of validInputCases) {
+      for (const { inputHtml, testName } of validInputCases) {
         test(testName, () => {
-          expect(validateHtml(inputValue)).toBe(true);
+          expect(validateHtml(inputHtml)).toBe(true);
         });
       }
     });
