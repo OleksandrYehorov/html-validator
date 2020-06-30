@@ -9,7 +9,6 @@ const selfClosingTags = new Set([
   'img',
   'input',
   'keygen',
-  'keygen',
   'link',
   'menuitem',
   'meta',
